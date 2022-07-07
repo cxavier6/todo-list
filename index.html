@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <title>To-Do App</title>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div class="task-input">
+        <i class="uil uil-plus"></i>
+        <input type="text" placeholder="Adicionar uma nova tarefa">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">Todas</span>
+          <span id="pending">Em andamento</span>
+          <span id="completed">Concluído</span>
+        </div>
+        <button class="clear-btn">Limpar</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
+
